@@ -1,0 +1,18 @@
+.sidebar_container {
+
+	border-right: 1px solid #335a76;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+
+.sidebar ul {
+	padding-left: 0px;
+	padding-top: 100px;
+}
+.sidebar  li {
+	text-align: center;
+	list-style-type: none;
+}

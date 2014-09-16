@@ -1,4 +1,5 @@
 @import "compass/layout/grid-background";
+@import "compass/typography/vertical_rhythm";
 // Import Variables first to override the defaults set in bootstrap
 @import "variables";
 // Import Bootstrap
@@ -7,11 +8,14 @@
 * Your own imports shoud go here
 *********************************/
 @import "compass";
-@import "grid";
+//@import "grid";
 @import "mixins";
 @import "text";
 @import "header";
 @import "home";
+@import "sidebar";
+@import "work";
+@import "content";
 
 
 

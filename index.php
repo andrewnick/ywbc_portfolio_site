@@ -7,7 +7,6 @@
 ?>
 
 <body>
-	<main>
 
 		<?php 
 
@@ -17,12 +16,10 @@
       }
       else {
 
-         //require_once('includes/home.php');
+         require_once('includes/work.php');
       }
 
     ?>
-
-	</main>
 
   <script type="text/javascript" src="assets/js/jquery.js"></script> 
   <script type="text/javascript" src="assets/js/main.js"></script>

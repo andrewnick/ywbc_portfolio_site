@@ -1,0 +1,29 @@
+.work_container{
+	padding: 20px;
+}
+
+.work_title {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.work_text {
+
+	//border: 1px solid black;
+
+	&.work_text-img{
+		//margin-top: 209px;
+	}
+}
+
+.work_row_bottom {
+	display: table;
+	padding-top: 50px;
+	
+	> p , img {
+
+		display: inline-block;
+		float: none;
+		vertical-align: bottom;
+	}
+}
