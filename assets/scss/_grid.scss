@@ -5,14 +5,11 @@ $grid-background-total-columns: 12;
 $grid-background-gutter-width: 30px;
 //$grid-background-offset: 50px; 
 $grid-background-baseline-color: green;
-$grid-background-baseline-height: 1.61em;
+$grid-background-baseline-height: 29px;
 // $show-column-grid-backgrounds: true;
 // $show-baseline-grid-backgrounds: true;
 // $show-grid-backgrounds: true;
 $grid-background-force-fluid: true; 
-
-$base-font-size: 18px;
-$base-line-height: 28.98px;
 
 html, body {
 	@include grid-background();

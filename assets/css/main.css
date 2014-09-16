@@ -2035,8 +2035,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* line 15, ../../bootstrap/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .container:before, .container:after {
@@ -2050,19 +2050,19 @@ pre code {
 @media (min-width: 768px) {
   /* line 10, ../../bootstrap/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 738px;
+    width: 750px;
   }
 }
 @media (min-width: 992px) {
   /* line 10, ../../bootstrap/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 958px;
+    width: 970px;
   }
 }
 @media (min-width: 1200px) {
   /* line 10, ../../bootstrap/assets/stylesheets/bootstrap/_grid.scss */
   .container {
-    width: 1158px;
+    width: 1170px;
   }
 }
 
@@ -2070,8 +2070,8 @@ pre code {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* line 15, ../../bootstrap/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .container-fluid:before, .container-fluid:after {
@@ -2085,8 +2085,8 @@ pre code {
 
 /* line 39, ../../bootstrap/assets/stylesheets/bootstrap/_grid.scss */
 .row {
-  margin-left: -9px;
-  margin-right: -9px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 /* line 15, ../../bootstrap/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .row:before, .row:after {
@@ -2102,8 +2102,8 @@ pre code {
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-left: 9px;
-  padding-right: 9px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* line 27, ../../bootstrap/assets/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -3982,8 +3982,8 @@ select[multiple].input-lg,
 }
 /* line 491, ../../bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group {
-  margin-left: -9px;
-  margin-right: -9px;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 /* line 15, ../../bootstrap/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
 .form-horizontal .form-group:before, .form-horizontal .form-group:after {
@@ -4005,7 +4005,7 @@ select[multiple].input-lg,
 /* line 509, ../../bootstrap/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
-  right: 9px;
+  right: 15px;
 }
 @media (min-width: 768px) {
   /* line 520, ../../bootstrap/assets/stylesheets/bootstrap/_forms.scss */
@@ -5136,8 +5136,8 @@ tbody.collapse.in {
 /* line 50, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-collapse {
   overflow-x: visible;
-  padding-right: 9px;
-  padding-left: 9px;
+  padding-right: 15px;
+  padding-left: 15px;
   border-top: 1px solid transparent;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
@@ -5198,8 +5198,8 @@ tbody.collapse.in {
 .container > .navbar-collapse,
 .container-fluid > .navbar-header,
 .container-fluid > .navbar-collapse {
-  margin-right: -9px;
-  margin-left: -9px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 @media (min-width: 768px) {
   /* line 109, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5258,7 +5258,7 @@ tbody.collapse.in {
 /* line 164, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 15px 9px;
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
   height: 50px;
@@ -5270,7 +5270,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 178, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: -9px;
+    margin-left: -15px;
   }
 }
 
@@ -5278,7 +5278,7 @@ tbody.collapse.in {
 .navbar-toggle {
   position: relative;
   float: right;
-  margin-right: 9px;
+  margin-right: 15px;
   padding: 9px 10px;
   margin-top: 8px;
   margin-bottom: 8px;
@@ -5311,7 +5311,7 @@ tbody.collapse.in {
 
 /* line 229, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 7.5px -9px;
+  margin: 7.5px -15px;
 }
 /* line 232, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
@@ -5361,7 +5361,7 @@ tbody.collapse.in {
   }
   /* line 275, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav.navbar-right:last-child {
-    margin-right: -9px;
+    margin-right: -15px;
   }
 }
 
@@ -5378,9 +5378,9 @@ tbody.collapse.in {
 }
 /* line 303, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-form {
-  margin-left: -9px;
-  margin-right: -9px;
-  padding: 10px 9px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
@@ -5408,7 +5408,7 @@ tbody.collapse.in {
   }
   /* line 335, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-form.navbar-right:last-child {
-    margin-right: -9px;
+    margin-right: -15px;
   }
 }
 
@@ -5450,8 +5450,8 @@ tbody.collapse.in {
   /* line 375, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text {
     float: left;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
   /* line 384, ../../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-text.navbar-right:last-child {
@@ -8058,79 +8058,85 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 8, ../scss/_text.scss */
+/* line 10, ../scss/_text.scss */
 h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
 }
 
-/* line 13, ../scss/_text.scss */
+/* line 15, ../scss/_text.scss */
 h1 {
   color: #335a76;
-  font-size: 48px;
   text-align: center;
-  line-height: 48px;
   font-family: 'Josefin Slab', sans-serif;
+  font-size: 48px;
+  line-height: 48px;
 }
 
-/* line 22, ../scss/_text.scss */
+/* line 30, ../scss/_text.scss */
 h2 {
   color: #ddebf1;
-  font-size: 30px;
   text-transform: uppercase;
   text-align: center;
-  line-height: 36px;
-  margin-top: 30px;
   font-family: 'Josefin Slab', sans-serif;
   font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 30px;
 }
-/* line 33, ../scss/_text.scss */
+/* line 47, ../scss/_text.scss */
 h2.tramp_title {
   text-transform: none;
   text-align: left;
 }
+/* line 52, ../scss/_text.scss */
+h2.sidebar_contact_title {
+  color: #1e005f;
+}
 
-/* line 40, ../scss/_text.scss */
+/* line 58, ../scss/_text.scss */
 h3 {
   color: #ddebf1;
   text-align: center;
+  font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   margin-top: 5px;
-  font-weight: bold;
 }
 
-/* line 50, ../scss/_text.scss */
+/* line 75, ../scss/_text.scss */
 h4 {
   color: #a6a084;
   font-size: 16px;
   line-height: 24px;
+  text-align: center;
 }
 
-/* line 58, ../scss/_text.scss */
+/* line 89, ../scss/_text.scss */
 h5 {
   color: white;
-  font-size: 18px;
-  line-height: 38px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-/* line 64, ../scss/_text.scss */
+/* line 100, ../scss/_text.scss */
 h6 {
   color: #598aab;
-  font-size: 18px;
   text-align: center;
   text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-/* line 73, ../scss/_text.scss */
+/* line 116, ../scss/_text.scss */
 p {
   color: black;
+  text-align: left;
   font-size: 18px;
   line-height: 1.5em;
-  text-align: left;
 }
 
-/* line 82, ../scss/_text.scss */
+/* line 126, ../scss/_text.scss */
 a {
   color: black;
   font-size: 16px;
@@ -8169,38 +8175,48 @@ a {
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: -1;
 }
 
-/* line 11, ../scss/_sidebar.scss */
-.sidebar ul {
-  padding-left: 0px;
-  padding-top: 100px;
+/* line 10, ../scss/_sidebar.scss */
+.sidebar_logo_container {
+  margin-top: 4vw;
+  margin-right: 2vw;
 }
 
 /* line 15, ../scss/_sidebar.scss */
+.sidebar_contact_container {
+  margin-top: 4vw;
+}
+
+/* line 20, ../scss/_sidebar.scss */
+.sidebar ul {
+  padding-left: 0px;
+  padding-top: 4vw;
+}
+
+/* line 26, ../scss/_sidebar.scss */
 .sidebar li {
   text-align: center;
   list-style-type: none;
 }
 
-/* line 1, ../scss/_work.scss */
+/* line 1, ../scss/_movie_site.scss */
 .work_container {
-  padding: 20px;
+  padding: 4vw;
 }
 
-/* line 5, ../scss/_work.scss */
+/* line 5, ../scss/_movie_site.scss */
 .work_title {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 6.5vw;
+  padding-bottom: 4vw;
 }
 
-/* line 19, ../scss/_work.scss */
+/* line 19, ../scss/_movie_site.scss */
 .work_row_bottom {
   display: table;
   padding-top: 50px;
 }
-/* line 23, ../scss/_work.scss */
+/* line 23, ../scss/_movie_site.scss */
 .work_row_bottom > p, .work_row_bottom img {
   display: inline-block;
   float: none;

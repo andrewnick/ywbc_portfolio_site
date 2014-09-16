@@ -16,7 +16,7 @@
       }
       else {
 
-         require_once('includes/work.php');
+         require_once('includes/content.php');
       }
 
     ?>

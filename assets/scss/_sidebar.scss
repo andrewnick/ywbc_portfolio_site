@@ -4,14 +4,25 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	z-index: -1;
+	//z-index: -1;
+}
+
+.sidebar_logo_container {
+	margin-top: 4vw;
+	margin-right: 2vw
+}
+
+.sidebar_contact_container {
+	margin-top: 4vw;
 }
 
 
 .sidebar ul {
 	padding-left: 0px;
-	padding-top: 100px;
+	padding-top: 4vw;
 }
+
+
 .sidebar  li {
 	text-align: center;
 	list-style-type: none;
