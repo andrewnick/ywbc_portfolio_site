@@ -8166,6 +8166,10 @@ a.content_button_link {
   color: white;
   font-weight: bold;
 }
+/* line 158, ../scss/_text.scss */
+a.sidebar_nav {
+  font-size: 24px;
+}
 
 /* line 1, ../scss/_header.scss */
 .header_background_img {
@@ -8231,7 +8235,7 @@ a.content_button_link {
 
 /* line 5, ../scss/_work.scss */
 .work_title {
-  padding-top: 6.5vw;
+  padding-top: 2.5vw;
   padding-bottom: 4vw;
 }
 

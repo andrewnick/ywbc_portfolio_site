@@ -8,15 +8,15 @@
 				</div>
 				<!-- <nav data-spy="affix" data-offset-top="700"> -->
 					<ul>
-						<li><a href="#">WORK</a></li>
-						<li><a href="#">ABOUT</a></li>
+						<li><a href="#" class="sidebar_nav">WORK</a></li>
+						<li><a href="#" class="sidebar_nav">ABOUT</a></li>
 					</ul>
 				<!-- </nav> -->
 
-				<div class="sidebar_contact_container">
+<!-- 				<div class="sidebar_contact_container">
 					<h2 class="sidebar_contact_title">Hire Me</h2>
 					<h4><a href="mailto:andrew.d.nicholas@gmail.com" target="_top">andrew.d.nicholas@gmail.com</a></h4>
-				</div>
+				</div> -->
 			</div>
 		</aside>
 
