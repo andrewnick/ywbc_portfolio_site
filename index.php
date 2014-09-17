@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="document_container">
 <?php 
 
     require_once('includes/head.php');
@@ -22,6 +22,7 @@
     ?>
 
   <script type="text/javascript" src="assets/js/jquery.js"></script> 
+  <script type="text/javascript" src="assets/js/jquery.pjax.js"></script> 
   <script type="text/javascript" src="assets/js/main.js"></script>
 
     <!-- add Modernizr -->

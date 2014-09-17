@@ -8050,242 +8050,597 @@ button.close {
 }
  
 */
-/* line 2, ../scss/_text.scss */
-html,
+@-webkit-keyframes slideDown {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-200%);
+  }
+
+  /* line 7, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideDown {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-200%);
+  }
+
+  /* line 7, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-o-keyframes slideDown {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-200%);
+  }
+
+  /* line 7, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-ms-keyframes slideDown {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-200%);
+  }
+
+  /* line 7, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  /* line 3, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateY(-200%);
+  }
+
+  /* line 7, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes slideLeft {
+  /* line 15, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 19, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+@-moz-keyframes slideLeft {
+  /* line 15, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 19, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+@-o-keyframes slideLeft {
+  /* line 15, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 19, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+@-ms-keyframes slideLeft {
+  /* line 15, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 19, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+@keyframes slideLeft {
+  /* line 15, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(0);
+  }
+
+  /* line 19, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+@-webkit-keyframes slideRight {
+  /* line 26, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-80%);
+  }
+
+  /* line 30, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-moz-keyframes slideRight {
+  /* line 26, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-80%);
+  }
+
+  /* line 30, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-o-keyframes slideRight {
+  /* line 26, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-80%);
+  }
+
+  /* line 30, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@-ms-keyframes slideRight {
+  /* line 26, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-80%);
+  }
+
+  /* line 30, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  /* line 26, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: translateX(-80%);
+  }
+
+  /* line 30, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: translateX(0);
+  }
+}
+
+/* line 1, ../scss/_document.scss */
 body {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
+  background-color: #1e1a19;
 }
 
-/* line 10, ../scss/_text.scss */
-h1, h2, h3, h4, h5 {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 15, ../scss/_text.scss */
-h1 {
-  color: #335a76;
-  font-family: 'Josefin Slab', sans-serif;
-  font-size: 48px;
-  line-height: 48px;
-}
-
-/* line 31, ../scss/_text.scss */
-h2 {
-  color: #ddebf1;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: 'Josefin Slab', sans-serif;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 36px;
-  margin-top: 30px;
-}
-/* line 48, ../scss/_text.scss */
-h2.header_title_name {
-  color: #ddebf1;
-}
-/* line 52, ../scss/_text.scss */
-h2.tramp_title {
-  text-transform: none;
-  text-align: left;
-}
-/* line 57, ../scss/_text.scss */
-h2.sidebar_contact_title {
-  color: #1e005f;
-}
-
-/* line 63, ../scss/_text.scss */
-h3 {
-  color: #a6a084;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 5px;
-}
-/* line 73, ../scss/_text.scss */
-h3.header_title_description {
-  text-align: center;
-  color: #ddebf1;
-}
-
-/* line 85, ../scss/_text.scss */
+/* line 6, ../scss/_text.scss */
+h1,
+h2,
+h3,
 h4 {
-  color: #a6a084;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
+  font-family: "Smythe", cursive;
+  font-weight: normal;
 }
 
-/* line 99, ../scss/_text.scss */
+/* line 12, ../scss/_text.scss */
+h1 {
+  font-size: 54px;
+  color: #c7a061;
+}
+
+/* line 18, ../scss/_text.scss */
+h2 {
+  font-size: 45px;
+  color: #c7a061;
+}
+
+/* line 24, ../scss/_text.scss */
+h3 {
+  font-size: 36px;
+  color: #c7a061;
+}
+
+/* line 30, ../scss/_text.scss */
+h4 {
+  font-size: 27px;
+  color: #f1ecdc;
+}
+
+/* line 36, ../scss/_text.scss */
 h5 {
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-/* line 110, ../scss/_text.scss */
-h6 {
-  color: #598aab;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-/* line 126, ../scss/_text.scss */
-p {
-  color: black;
-  text-align: left;
+  font-family: "Quando", serif;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 27px;
+  margin-bottom: 0px;
   font-size: 18px;
-  line-height: 1.5em;
+  color: #f1ecdc;
 }
-/* line 133, ../scss/_text.scss */
-p.work_text-centre {
-  text-align: center;
-}
-
-/* line 139, ../scss/_text.scss */
-.work_tech_list li {
-  text-align: center;
-  font-size: 20px;
-  line-height: 24px;
-  margin-top: 5px;
+/* line 46, ../scss/_text.scss */
+h5.nav_item {
+  margin: 0px;
+  background-color: #754c24;
+  line-height: 60px;
+  height: 60px;
 }
 
-/* line 148, ../scss/_text.scss */
+/* line 57, ../scss/_text.scss */
+p {
+  line-height: 1.5;
+  margin-bottom: 27px;
+  margin-top: 0px;
+  font-family: "Quando", serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #f1ecdc;
+}
+
+/* line 67, ../scss/_text.scss */
 a {
-  color: black;
-  font-size: 16px;
-  line-height: 1.5em;
+  text-decoration: none;
+  margin-bottom: 0px;
+  font-family: "Quando", serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #f1ecdc;
 }
-/* line 153, ../scss/_text.scss */
-a.content_button_link {
-  color: white;
-  font-weight: bold;
+/* line 77, ../scss/_text.scss */
+a:hover {
+  text-decoration: none;
+  color: #937e3b;
+}
+
+/* line 83, ../scss/_text.scss */
+.link_text {
+  text-decoration: none;
+  color: #8f6c33;
+}
+/* line 89, ../scss/_text.scss */
+.link_text:hover {
+  color: #8f6c33;
+  text-decoration: underline;
 }
 
 /* line 1, ../scss/_header.scss */
-.header_background_img {
-  background: url("../images/hills_blue.jpg") no-repeat center center;
-  position: relative;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100vh;
+.header_background {
+  height: 111px;
 }
 
-/* line 13, ../scss/_header.scss */
-.header_logo_container {
-  margin: 0 auto;
-  width: 50vw;
-  padding-top: 20vh;
-  position: relative;
-  left: -2%;
+/* line 7, ../scss/_header.scss */
+.header_logo {
+  height: 93px;
+  padding-top: 18px;
+  padding-left: 18px;
+}
+
+/* line 1, ../scss/_nav.scss */
+.nav_menu {
+  position: fixed;
+  margin-top: 111px;
 }
 @media screen and (min-width: 768px) {
-  /* line 13, ../scss/_header.scss */
-  .header_logo_container {
-    width: 20vw;
+  /* line 1, ../scss/_nav.scss */
+  .nav_menu {
+    margin-top: 0px;
+    position: relative;
+    line-height: 111px;
   }
 }
 
-/* line 1, ../scss/_sidebar.scss */
-.sidebar_container {
-  border-right: 1px solid #335a76;
-  position: absolute;
-  top: 0;
-  bottom: 0;
+/* line 13, ../scss/_nav.scss */
+.nav_item {
+  text-decoration: none;
 }
 
-/* line 10, ../scss/_sidebar.scss */
-.sidebar_logo_container {
-  margin-top: 4vw;
-  margin-right: 2vw;
+/* line 19, ../scss/_nav.scss */
+.nav_item_container--first {
+  border-top: 1px solid #c7a061;
 }
 
-/* line 15, ../scss/_sidebar.scss */
-.sidebar_contact_container {
-  margin-top: 4vw;
-}
-
-/* line 20, ../scss/_sidebar.scss */
-.sidebar ul {
-  padding-left: 0px;
-  padding-top: 4vw;
-}
-
-/* line 26, ../scss/_sidebar.scss */
-.sidebar li {
+/* line 25, ../scss/_nav.scss */
+.nav_item_container {
+  display: block;
   text-align: center;
-  list-style-type: none;
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #c7a061;
+}
+@media screen and (min-width: 768px) {
+  /* line 25, ../scss/_nav.scss */
+  .nav_item_container {
+    border: none;
+    line-height: 111px;
+  }
 }
 
-/* line 1, ../scss/_work.scss */
-#work_container {
-  padding: 4vw;
+/* line 40, ../scss/_nav.scss */
+.nav_btn_container {
+  height: 111px;
 }
 
-/* line 5, ../scss/_work.scss */
-.work_title {
-  padding-top: 6.5vw;
-  padding-bottom: 4vw;
+/* line 44, ../scss/_nav.scss */
+.nav_btn {
+  position: fixed;
+  z-index: 10;
+  top: 18px;
+  right: 18px;
+  background-color: transparent;
+  border: none;
+  width: 75px;
+  height: 75px;
+  outline: none;
+}
+/* line 59, ../scss/_nav.scss */
+.nav_btn:active, .nav_btn.active {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+/* line 64, ../scss/_nav.scss */
+.nav_btn:active:focus, .nav_btn.active:focus {
+  color: #768b49;
+  outline: none;
+}
+/* line 71, ../scss/_nav.scss */
+.nav_btn:hover {
+  background-color: transparent;
+}
+/* line 74, ../scss/_nav.scss */
+.nav_btn:hover > .nav_btn_line {
+  border: 1px solid black;
+}
+/* line 79, ../scss/_nav.scss */
+.nav_btn:focus {
+  background-color: transparent;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  /* line 44, ../scss/_nav.scss */
+  .nav_btn {
+    display: none;
+  }
 }
 
-/* line 10, ../scss/_work.scss */
-.work_text {
-  margin-top: 2vw;
+/* line 91, ../scss/_nav.scss */
+.nav_btn_line {
+  display: block;
+  background-color: #f1ecdc;
+  width: 100%;
+  height: 5px;
+  border-radius: 3px;
 }
 
-/* line 18, ../scss/_work.scss */
-.work_row_bottom {
-  display: table;
-  padding-top: 4vw;
-}
-/* line 22, ../scss/_work.scss */
-.work_row_bottom > p, .work_row_bottom img, .work_row_bottom .work_tech_button {
-  display: inline-block;
-  float: none;
-  vertical-align: bottom;
+/* line 99, ../scss/_nav.scss */
+.nav_btn_line + .nav_btn_line {
+  margin-top: 15px;
 }
 
-/* line 30, ../scss/_work.scss */
-.work_tech_button {
-  margin-top: 4vw;
-}
-
-/* line 35, ../scss/_work.scss */
-.work_tech_list {
-  list-style-type: none;
-  padding-left: 0;
-  padding-top: 1vw;
-}
-
-/* line 41, ../scss/_work.scss */
-.work_tech_title {
-  margin-top: 4vw;
+/* line 103, ../scss/_nav.scss */
+.nav_item_container {
+  text-align: center;
 }
 
 /* line 1, ../scss/_content.scss */
-.content_container {
-  position: relative;
+.move_left {
+  -webkit-animation: slideLeft 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  -moz-animation: slideLeft 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  -o-animation: slideLeft 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  -ms-animation: slideLeft 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  animation: slideLeft 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
 }
 
 /* line 5, ../scss/_content.scss */
-.content_button_link {
-  text-align: center;
-  background: #598aab;
-  padding: 15px 0;
-  border-radius: 5px;
-  margin-top: 4vw;
+.move_right {
+  -webkit-animation: slideRight 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  -moz-animation: slideRight 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  -o-animation: slideRight 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  -ms-animation: slideRight 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+  animation: slideRight 1s cubic-bezier(0.565, -0.295, 0.445, 1.325) 0 1 both;
+}
+
+/* line 9, ../scss/_content.scss */
+.content_container {
+  position: relative;
+  z-index: 1;
+  background-color: #1e1a19;
+  padding-bottom: 30px;
+  border-top: 1px solid #c7a061;
+}
+
+/* line 19, ../scss/_content.scss */
+.content_info_title {
+  margin-right: 30px;
+}
+
+/* line 23, ../scss/_content.scss */
+.content_header {
+  padding-top: 10px;
+  padding-left: 18px;
+  height: 111px;
+}
+
+/* line 29, ../scss/_content.scss */
+.content_container_img {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 37, ../scss/_content.scss */
+.content_container_details {
+  padding-bottom: 30px;
+  padding-top: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 44, ../scss/_content.scss */
+  .content_location_text {
+    padding-bottom: 0px;
+  }
+}
+
+/* line 52, ../scss/_content.scss */
+.content_title {
+  margin-top: 0px;
+}
+
+/* line 56, ../scss/_content.scss */
+.content_location_map_overlay {
+  background: transparent;
+  position: relative;
+  z-index: 20;
+  width: 2000px;
+  height: 2000px;
+}
+/* line 11, ../scss/_mixins.scss */
+.content_location_map_overlay:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 66, ../scss/_content.scss */
+.content_information_title {
+  width: 78px;
+  margin-right: 15px;
+  float: left;
+}
+
+/* line 72, ../scss/_content.scss */
+.content_information_details {
+  float: left;
+}
+
+/* line 76, ../scss/_content.scss */
+#mapOverlay {
+  width: 2000px;
+  height: 2000px;
+}
+
+/* line 6, ../scss/_menu.scss */
+.table {
+  margin-bottom: 0px;
+}
+
+/* line 11, ../scss/_menu.scss */
+.table > tbody > tr > td {
+  border-top: none;
+  padding-left: 15px;
+}
+
+/* line 17, ../scss/_menu.scss */
+.table > thead > tr > th {
+  border-bottom: none;
+}
+
+/* line 21, ../scss/_menu.scss */
+.table > tbody > tr {
+  border-bottom: 1px #f1ecdc solid;
+}
+/* line 24, ../scss/_menu.scss */
+.table > tbody > tr:last-child {
+  border-bottom: none;
+}
+
+/* line 29, ../scss/_menu.scss */
+.menu_table {
+  border: 1px #f1ecdc solid;
+  padding-bottom: 15px;
+}
+/* line 11, ../scss/_mixins.scss */
+.menu_table:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 37, ../scss/_menu.scss */
+.menu_list {
+  padding-left: 50px;
+  color: #f1ecdc;
 }
 @media screen and (min-width: 768px) {
-  /* line 5, ../scss/_content.scss */
-  .content_button_link {
-    width: 30vw;
-    margin: 0 auto;
+  /* line 37, ../scss/_menu.scss */
+  .menu_list {
+    padding-left: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
+}
+
+/* line 48, ../scss/_menu.scss */
+.menu_container_details {
+  margin-top: 15px;
+}
+
+/* line 61, ../scss/_menu.scss */
+.nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs.nav-justified > li {
+  border-radius: 0px;
+  float: left;
+  width: 50%;
+}
+
+/* line 67, ../scss/_menu.scss */
+.nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px 4px 0px 0px;
+  margin-bottom: 0px;
+}
+
+/* line 74, ../scss/_menu.scss */
+.nav-tabs.nav-justified > .active > a {
+  color: #f1ecdc;
+}
+
+/* line 78, ../scss/_menu.scss */
+.nav_tab_pane {
+  padding-top: 9px;
+  background-color: #1e1a19;
+  border: 1px solid #f1ecdc;
+  border-top: none;
+}
+
+/* line 85, ../scss/_menu.scss */
+.nav-tabs.nav-justified > .active > a {
+  border-bottom: none;
+}
+/* line 89, ../scss/_menu.scss */
+.nav-tabs.nav-justified > .active > a:hover {
+  border-bottom: none;
+}
+
+/* line 94, ../scss/_menu.scss */
+.nav-tabs.nav-justified > li > a {
+  border: 1px solid #f1ecdc;
+}
+
+/* line 98, ../scss/_menu.scss */
+.nav-tabs > li.active > a {
+  background-color: #1e1a19;
+  border-bottom: none;
+}
+/* line 102, ../scss/_menu.scss */
+.nav-tabs > li.active > a:hover {
+  background-color: #1e1a19;
 }

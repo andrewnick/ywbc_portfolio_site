@@ -37,10 +37,12 @@
 				<li>HTML5</li>
 			</ul>
 		</div>
-		<div class="col-xs-12 col-sm-6">
-			<div class="content_button_link">
-				<a href="#" class="content_button_link">Have a Look >></a>
-			</div>
+	<div class="row">
+		<div class="work_tech_button col-xs-12">
+			<a data-pjax href="includes/work-restaurant.php" class="content_button_link">
+				<div class="content_button_link">Visit the Website >></div>
+			</a>
 		</div>
+	</div>
 	</div>
 </article>

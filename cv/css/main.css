@@ -1,0 +1,198 @@
+* {
+	-webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box; box-sizing: border-box;
+}
+
+/* Layout for the page overview */
+body {	
+	width:1200px;
+	margin: 0 auto;
+	font-family: "Lucida Sans Unicode" "Lucida Grande" sans-serif;
+	/*background-color: #c7b8a5;*/
+}
+
+main {
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black; 
+}
+
+section {
+	padding-top: 20px;
+}
+
+h2 {
+	color: #1149b6;
+}
+
+h3 {
+	color: #fc5305;
+}
+
+h4,
+h5 {
+	color: black;
+}
+
+
+/* Header styling */
+.header__bg_img {
+	background-image: url("../assets/0001_mountain_landscape_AN_02.png");
+	background-repeat: no-repeat;
+}
+
+/*.header_text_container {
+	display: inline-block;
+}*/
+
+.header__picture_container {
+	display: inline-block;
+}
+
+.header__title {
+	font-size: 60px;
+	color: white;
+}
+
+.header__details {
+	list-style-type: none;
+	color: white;
+}
+
+.header__picture {
+/*	position: relative;*/
+/*	margin-top: 50%;
+	top: -170px;*/
+}
+
+.nav--hov:hover {
+	background-color: #7da1df;
+}
+
+.button__textsyle {
+	font-size: 24px;
+	color: white;
+	line-height: 50px;
+	text-decoration: none;
+}
+
+.button__textsyle:hover {
+	background-color: #7da1df;
+	color:#c7b8a5 ;
+}
+
+.button--blue {
+	background-color:#7da1df;
+}
+
+.button--orange { 
+	background-color:#fc5305;
+}
+
+.exp__article {
+	margin-bottom: 20px;
+}
+
+.exp__basics {
+	display: inline-block;
+	padding-left: 10px;
+	float:left;
+}
+
+.exp__details {
+	margin-right: 50px;
+	width: 700px;
+	float: right;
+}
+
+.exp_title {
+	margin-bottom: 10px;
+}
+
+.exp_company {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.exp_date {
+	margin-top: 10px;
+}
+
+.edu__title {
+	margin-bottom: 10px;
+}
+
+.edu__provider {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.edu__date {
+	margin-top: 10px;
+}
+
+.skill_list_indent {
+	margin-left: 50px;
+}
+
+/* Footer Styles */
+
+/* Logo size and position */
+
+.footer_container {
+	height: 158px;
+}
+
+.footer__container__text {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.footer_logo {
+	display: inline-block;
+
+}
+
+.footer__text__color {
+	color: black;
+}
+
+.footer__text__margins {
+	margin: 0px;
+}
+
+.footer_facebook_link {
+	float:right;
+	margin-top:100px;
+}
+
+.footer-fl {
+	float:left
+}
+
+/* Utility Text */
+.link_text{
+	text-decoration: none;	
+	color: #7da1df;
+}
+
+.content_indent {
+	padding-left: 50px;
+}
+
+
+ /*Clearfix work around*/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack */
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

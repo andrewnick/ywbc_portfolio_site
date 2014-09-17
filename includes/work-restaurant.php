@@ -46,7 +46,7 @@
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">
-			<a href="#" class="content_button_link">
+			<a data-pjax href="restaurant/index.php" class="content_button_link">
 				<div class="content_button_link">Visit the Website >></div>
 			</a>
 		</div>
