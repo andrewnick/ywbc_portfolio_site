@@ -15,7 +15,7 @@ h1,h2,h3,h4,h5 {
 h1 {
 
 	color: $dark-blue;
-	text-align: center;
+	//text-align: center;
 	font-family: 'Josefin Slab', sans-serif;
 
 	// font-size: $h1-font-size;
@@ -25,6 +25,7 @@ h1 {
 
 	font-size: 48px;
 	line-height: 48px;
+
 }
 
 h2 {
@@ -44,6 +45,10 @@ h2 {
 	// margin-top: $h2-margin-top;
 	// margin-bottom: $h2-margin-bottom;
 
+	&.header_title_name{
+		color: $pale-blue;		
+	}
+
 	&.tramp_title {
 		text-transform: none;
 		text-align: left;
@@ -57,13 +62,18 @@ h2 {
 
 h3 {
 	
-	color: $pale-blue;
-	text-align: center;
+	color: $lite-brown;
+	//text-align: center;
 	font-weight: bold;
 
 	font-size: 20px;
 	line-height: 24px;
 	margin-top: 5px;
+
+	&.header_title_description {
+		text-align: center;
+		color: $pale-blue;
+	}
 
 	// font-size: $h3-font-size;
 	// line-height: $h3-line-height;
@@ -120,6 +130,18 @@ p {
 	font-size: 18px;
 	line-height: 1.5em;
 
+	&.work_text-centre {
+		text-align: center;
+	}
+
+}
+
+.work_tech_list li {
+
+	text-align: center;
+	font-size: 20px;
+	line-height: 24px;
+	margin-top: 5px; 
 }
 
 
@@ -127,6 +149,11 @@ a {
 	color: black;	
 	font-size: 16px;
 	line-height: 1.5em;
+
+	&.content_button_link{
+		color: white;
+		font-weight: bold;
+	}
 }
 
 // p, ul, ol, pre, table, blockquote {

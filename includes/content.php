@@ -23,7 +23,7 @@
 		<section class="col-xs-12 col-sm-offset-3 col-sm-9 col-md-offset-2 col-md-10">
 			<div class="work_container">
 
-				<?php require_once ('includes/movie_site.php'); ?>
+				<?php require_once ('includes/work-restaurant.php'); ?>
 
 			</div>
 		</section>

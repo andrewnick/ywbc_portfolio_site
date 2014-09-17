@@ -11,6 +11,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:700,400|Josefin+Slab:700' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
 	<link href="assets/css/main.css" rel="stylesheet" type='text/css'>
+	<link href="assets/css/print.css" rel="stylesheet" type='text/css'>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

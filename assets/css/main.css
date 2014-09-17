@@ -8067,13 +8067,12 @@ h1, h2, h3, h4, h5 {
 /* line 15, ../scss/_text.scss */
 h1 {
   color: #335a76;
-  text-align: center;
   font-family: 'Josefin Slab', sans-serif;
   font-size: 48px;
   line-height: 48px;
 }
 
-/* line 30, ../scss/_text.scss */
+/* line 31, ../scss/_text.scss */
 h2 {
   color: #ddebf1;
   text-transform: uppercase;
@@ -8084,27 +8083,35 @@ h2 {
   line-height: 36px;
   margin-top: 30px;
 }
-/* line 47, ../scss/_text.scss */
+/* line 48, ../scss/_text.scss */
+h2.header_title_name {
+  color: #ddebf1;
+}
+/* line 52, ../scss/_text.scss */
 h2.tramp_title {
   text-transform: none;
   text-align: left;
 }
-/* line 52, ../scss/_text.scss */
+/* line 57, ../scss/_text.scss */
 h2.sidebar_contact_title {
   color: #1e005f;
 }
 
-/* line 58, ../scss/_text.scss */
+/* line 63, ../scss/_text.scss */
 h3 {
-  color: #ddebf1;
-  text-align: center;
+  color: #a6a084;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   margin-top: 5px;
 }
+/* line 73, ../scss/_text.scss */
+h3.header_title_description {
+  text-align: center;
+  color: #ddebf1;
+}
 
-/* line 75, ../scss/_text.scss */
+/* line 85, ../scss/_text.scss */
 h4 {
   color: #a6a084;
   font-size: 16px;
@@ -8112,14 +8119,14 @@ h4 {
   text-align: center;
 }
 
-/* line 89, ../scss/_text.scss */
+/* line 99, ../scss/_text.scss */
 h5 {
   color: white;
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 100, ../scss/_text.scss */
+/* line 110, ../scss/_text.scss */
 h6 {
   color: #598aab;
   text-align: center;
@@ -8128,19 +8135,36 @@ h6 {
   line-height: 24px;
 }
 
-/* line 116, ../scss/_text.scss */
+/* line 126, ../scss/_text.scss */
 p {
   color: black;
   text-align: left;
   font-size: 18px;
   line-height: 1.5em;
 }
+/* line 133, ../scss/_text.scss */
+p.work_text-centre {
+  text-align: center;
+}
 
-/* line 126, ../scss/_text.scss */
+/* line 139, ../scss/_text.scss */
+.work_tech_list li {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 5px;
+}
+
+/* line 148, ../scss/_text.scss */
 a {
   color: black;
   font-size: 16px;
   line-height: 1.5em;
+}
+/* line 153, ../scss/_text.scss */
+a.content_button_link {
+  color: white;
+  font-weight: bold;
 }
 
 /* line 1, ../scss/_header.scss */
@@ -8200,30 +8224,68 @@ a {
   list-style-type: none;
 }
 
-/* line 1, ../scss/_movie_site.scss */
+/* line 1, ../scss/_work.scss */
 .work_container {
   padding: 4vw;
 }
 
-/* line 5, ../scss/_movie_site.scss */
+/* line 5, ../scss/_work.scss */
 .work_title {
   padding-top: 6.5vw;
   padding-bottom: 4vw;
 }
 
-/* line 19, ../scss/_movie_site.scss */
+/* line 10, ../scss/_work.scss */
+.work_text {
+  margin-top: 2vw;
+}
+
+/* line 18, ../scss/_work.scss */
 .work_row_bottom {
   display: table;
-  padding-top: 50px;
+  padding-top: 4vw;
 }
-/* line 23, ../scss/_movie_site.scss */
-.work_row_bottom > p, .work_row_bottom img {
+/* line 22, ../scss/_work.scss */
+.work_row_bottom > p, .work_row_bottom img, .work_row_bottom .work_tech_button {
   display: inline-block;
   float: none;
   vertical-align: bottom;
 }
 
+/* line 30, ../scss/_work.scss */
+.work_tech_button {
+  margin-top: 4vw;
+}
+
+/* line 35, ../scss/_work.scss */
+.work_tech_list {
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 1vw;
+}
+
+/* line 41, ../scss/_work.scss */
+.work_tech_title {
+  margin-top: 4vw;
+}
+
 /* line 1, ../scss/_content.scss */
 .content_container {
   position: relative;
+}
+
+/* line 5, ../scss/_content.scss */
+.content_button_link {
+  text-align: center;
+  background: #598aab;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 4vw;
+}
+@media screen and (min-width: 768px) {
+  /* line 5, ../scss/_content.scss */
+  .content_button_link {
+    width: 30vw;
+    margin: 0 auto;
+  }
 }

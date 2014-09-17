@@ -1,3 +1,17 @@
 .content_container {
 	position: relative;
 }
+
+.content_button_link {
+	text-align: center;
+	background: $lite-blue;
+	padding: 15px 0;
+	border-radius: 5px;
+	margin-top: 4vw;
+
+
+	@include respond($tablet) {
+		width: 30vw;
+		margin: 0 auto;
+	}
+}

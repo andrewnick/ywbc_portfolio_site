@@ -1,0 +1,44 @@
+.work_container{
+	padding: 4vw;
+}
+
+.work_title {
+	padding-top: 6.5vw;
+	padding-bottom: 4vw;
+}
+
+.work_text {
+
+	margin-top: 2vw;
+}
+
+.work_img {
+}
+
+.work_row_bottom {
+	display: table;
+	padding-top: 4vw;
+	
+	> p , img, .work_tech_button {
+
+		display: inline-block;
+		float: none;
+		vertical-align: bottom;
+	}
+}
+
+.work_tech_button {
+
+	margin-top: 4vw;
+
+}
+.work_tech_list {
+	list-style-type: none;
+	padding-left: 0;
+	padding-top: 1vw;
+}
+
+.work_tech_title {
+	margin-top: 4vw;
+}
+

@@ -1,0 +1,12 @@
+@media only print {
+  /* line 2, ../scss/print.scss */
+  header, aside {
+    display: none;
+  }
+
+  /* line 6, ../scss/print.scss */
+  section {
+    margin-left: 0;
+    width: 100%;
+  }
+}
