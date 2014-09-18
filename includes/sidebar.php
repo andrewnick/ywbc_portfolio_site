@@ -1,8 +1,8 @@
 <aside class="sidebar sidebar_container hidden-xs col-sm-4 col-md-2">
   <div class="row">
-      <!-- <nav data-spy="affix" data-offset-top="700"> -->
+
         <div class="sidebar_logo_container col-sm-12">
-          <img class='img-responsive'src="assets/images/logo_b_thin.svg" alt="">
+          <img class='sidebar_logo img-responsive'src="assets/images/logo_b_thin.svg" alt="">
         </div>
 
         <ul class="col-sm-12" id="sidebar_nav">
@@ -11,10 +11,10 @@
         </ul>
 
 
-       <!-- <div class="sidebar_contact_container"> -->
-      <h3 class="sidebar_contact_title col-sm-12">Hiring?</h3>
-      <h4 class="col-sm-12"><a href="mailto:andrew.d.nicholas@gmail.com" target="_top"> Contact me at: andrew.d.nicholas@gmail.com</a></h4>
-    <!-- </div> -->
-    <!-- </nav> -->
+    <div class="sidebar_contact_container col-sm-12">
+      <h3 class="sidebar_contact_title">Hiring and like <br/> what you see?</h3>
+<!--       <h3 class="sidebar_contact_title">Like what you see?</h3> -->
+      <h3 class="sidebar_contact_title" ><a class="sidebar_contact_title-email" href="mailto:andrew.d.nicholas@gmail.com" target="_top">Get in Contact</a></h3>
+    </div>
   </div>
 </aside>

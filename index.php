@@ -11,7 +11,7 @@
 		<?php require('includes/content.php'); ?>
 
    <!-- <div>Icons made by Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div> -->
-
+<!--     <?php //require("includes/footer.php") ?> -->
   <script type="text/javascript" src="assets/js/jquery.js"></script> 
   <script type="text/javascript" src="assets/js/Hashban.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>

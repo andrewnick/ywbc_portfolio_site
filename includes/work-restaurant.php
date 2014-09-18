@@ -3,9 +3,13 @@
 		<h1 class="work_title col-xs-12">WORK</h1>
 	</div>
 	<div class="row">
-		<a href="about-container.php" id="previous"><img class="work_arrow col-xs-3 col-sm-1" src="assets/icons/previous11.svg" alt="previous"></a>
-		<h1 class="work_title col-xs-11">Restaurant - Sign of the Bellbird</h1>
-		<a href="work-movie-container.php" id="next"><img class="work_arrow col-xs-3 col-sm-1" src="assets/icons/next15.svg" alt="next"></a>
+		<div class="col-xs-1">
+			<a href="work-movie-container.php" id="previous"><img class="work_arrow" src="assets/icons/previous11.svg" alt="previous"></a>
+		</div>
+		<h1 class="work_title col-xs-10">Restaurant - Sign of the Bellbird</h1>
+		<div class="col-xs-1">
+			<a href="work-movie-container.php" id="next"><img class="work_arrow pull-right" src="assets/icons/next15.svg" alt="next"></a>
+		</div>
 	</div>
 	<div class="row">
 		<h3 class="col-xs-12">Front End Web Design and Development Course Project</h3>

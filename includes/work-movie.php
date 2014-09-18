@@ -1,16 +1,15 @@
 <article>
-	<div class="row work_row">
+	<div class="row">
 		<h1 class="work_title col-xs-12">WORK</h1>
 	</div>
-	<div class="row work_row">
-		<div class="col-xs-3 col-sm-1">
+	<div class="row">
+		<div class="col-xs-1">
 			<a href="work-restaurant-container.php" id="previous"><img class="work_arrow" src="assets/icons/previous11.svg" alt="previous"></a>
-		</div>
-		
+		</div>		
 		<h1 class="work_title col-xs-12 col-sm-10">Movie - LIFE</h1>
 		
-		<div class="col-xs-3 col-sm-1">
-			<a href="work-restaurant-container.php" id="next"><img class="work_arrow" src="assets/icons/next15.svg" alt="next"></a>
+		<div class="col-xs-1">
+			<a href="work-restaurant-container.php" id="next"><img class="work_arrow work_arrow-right pull-right" src="assets/icons/next15.svg" alt="next"></a>
 		</div>
 	</div>
 	<div class="row">
@@ -32,25 +31,25 @@
 		<p class="work_text col-xs-12 col-sm-6">The design and build of the site had the following process.</p>
 	</div>
 	<div class="row work_row_bottom">
-		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/pintrest_moodboard.png">
-		<p class="work_text work_text-img col-xs-12 col-sm-4">A moodboard was created and then transfered to a style tile.</p>
+		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/pintrest_moodboard.png">
+		<p class="work_text work_text-img col-xs-12 col-sm-4">A moodboard was created to and then transfered to a style tile.</p>
 	</div>
 	<div class="row work_row_bottom">
 		<p class="work_text work_text-img col-xs-12 col-sm-4">The style tile was where the colours, textures, typography, logo and were set.</p>
-		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/Style_Tile_LIFE_02.jpg">
+		<img class="work_img work_img-right col-xs-12 col-sm-8 img-responsive" src="assets/images/Style_Tile_LIFE_02.jpg">
 	</div>
 	<div class="row work_row_bottom">
-		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/life_wireframe.png">
+		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/life_wireframe.png">
 		<p class="work_text work_text-img col-xs-12 col-sm-4">Next the layout was wireframed using photoshop to be ready for development.</p>
 	</div>
 	<div class="row work_row_bottom">
 		<p class="work_text work_text-img col-xs-12 col-sm-4">Drawing from the wireframe and styletile small web elements were built
 															 to create a collection of patterns for the site. Each element was created at a very small level
 															 and then built upon to create more complex elements.</p>
-		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/life_patterns.png">
+		<img class="work_img work_img-right col-xs-12 col-sm-8 img-responsive" src="assets/images/life_patterns2.png">
 	</div>
 	<div class="row work_row_bottom">
-		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/life_top.png">
+		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/life_top.png">
 		<p class="work_text work_text-img col-xs-12 col-sm-4">Using the patterns the site was constructed</p>
 	</div>
 	<div class="row">

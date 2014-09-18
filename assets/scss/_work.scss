@@ -17,6 +17,16 @@
 }
 
 .work_img {
+	
+	padding-top: 4vw;
+
+	&.work_img-right {
+		padding-left: 4vw;
+	}
+
+	&.work_img-left {
+		padding-right: 4vw;
+	}
 }
 
 .work_row_bottom {
@@ -49,7 +59,11 @@
 .work_arrow {
 	padding-top: 4vw;
 	padding-bottom: 4vw;
-	width: 3vw;
+	width: 25px;
+
+	&.work_arrow-right {
+	//	position: absolute;
+	}
 }
 
 .work_text-center{

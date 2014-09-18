@@ -4,7 +4,7 @@
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	//z-index: -1;
+
 }
 
 .sidebar_logo_container {
@@ -13,12 +13,16 @@
 }
 
 .sidebar_contact_container {
-	margin-top: 4vw;
+	margin-top: 10vw;
+}
+
+.sidebar_logo {
+	padding-right: 2vw;
 }
 
 
 .sidebar ul {
-	padding-left: 0px;
+	padding-left: 15px;
 	padding-top: 4vw;
 }
 

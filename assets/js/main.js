@@ -4,7 +4,9 @@ $(document).ready( function(){
 	    offset: {
 	      top: $(window).height()
 	    }
-	  })
+	 })
+
+
 
 	$(function() {
 	    if (Modernizr.history) {
@@ -21,7 +23,7 @@ $(document).ready( function(){
 	                // reveal the new content
 	                this.old_content.remove();
 	                new_content.fadeIn();
-					$("body").animate({scrollTop:$('#work_container').offset().top}, 20);
+					$("body").animate({scrollTop:$('#work_container').offset().top});
 
 	            };
 

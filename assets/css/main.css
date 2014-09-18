@@ -8101,12 +8101,8 @@ h2.tramp_title {
   text-transform: none;
   text-align: left;
 }
-/* line 67, ../scss/_text.scss */
-h2.sidebar_contact_title {
-  color: #1e005f;
-}
 
-/* line 73, ../scss/_text.scss */
+/* line 69, ../scss/_text.scss */
 h3 {
   color: #a6a084;
   font-weight: bold;
@@ -8114,13 +8110,28 @@ h3 {
   line-height: 24px;
   margin-top: 5px;
 }
-/* line 83, ../scss/_text.scss */
+/* line 79, ../scss/_text.scss */
 h3.header_title_description {
   text-align: center;
   color: #ddebf1;
 }
+/* line 84, ../scss/_text.scss */
+h3.sidebar_contact_title {
+  color: #335a76;
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding-top: 20px;
+  font-variant: small-caps;
+  text-transform: none;
+}
+/* line 94, ../scss/_text.scss */
+h3.sidebar_contact_title.sidebar_contact_title-email {
+  color: #a6a084;
+}
 
-/* line 95, ../scss/_text.scss */
+/* line 106, ../scss/_text.scss */
 h4 {
   color: #a6a084;
   font-size: 16px;
@@ -8128,14 +8139,14 @@ h4 {
   text-align: center;
 }
 
-/* line 109, ../scss/_text.scss */
+/* line 120, ../scss/_text.scss */
 h5 {
   color: white;
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 120, ../scss/_text.scss */
+/* line 131, ../scss/_text.scss */
 h6 {
   color: #598aab;
   text-align: center;
@@ -8144,19 +8155,19 @@ h6 {
   line-height: 24px;
 }
 
-/* line 136, ../scss/_text.scss */
+/* line 147, ../scss/_text.scss */
 p {
   color: black;
   text-align: left;
   font-size: 18px;
   line-height: 1.5em;
 }
-/* line 143, ../scss/_text.scss */
+/* line 154, ../scss/_text.scss */
 p.work_text-centre {
   text-align: center;
 }
 
-/* line 149, ../scss/_text.scss */
+/* line 160, ../scss/_text.scss */
 .work_tech_list li {
   text-align: center;
   font-size: 20px;
@@ -8164,23 +8175,28 @@ p.work_text-centre {
   margin-top: 5px;
 }
 
-/* line 158, ../scss/_text.scss */
+/* line 169, ../scss/_text.scss */
 a {
   color: black;
   font-size: 18px;
   line-height: 1.5em;
   text-decoration: underline;
 }
-/* line 164, ../scss/_text.scss */
+/* line 175, ../scss/_text.scss */
 a.content_button_link {
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 170, ../scss/_text.scss */
+/* line 181, ../scss/_text.scss */
 a.sidebar_nav {
   font-size: 24px;
   text-decoration: none;
+}
+/* line 186, ../scss/_text.scss */
+a.sidebar_contact_title-email {
+  color: #a6a084;
+  font-size: 22px;
 }
 
 /* line 1, ../scss/_header.scss */
@@ -8225,22 +8241,27 @@ a.sidebar_nav {
 
 /* line 15, ../scss/_sidebar.scss */
 .sidebar_contact_container {
-  margin-top: 4vw;
+  margin-top: 10vw;
 }
 
-/* line 20, ../scss/_sidebar.scss */
+/* line 19, ../scss/_sidebar.scss */
+.sidebar_logo {
+  padding-right: 2vw;
+}
+
+/* line 24, ../scss/_sidebar.scss */
 .sidebar ul {
-  padding-left: 0px;
+  padding-left: 15px;
   padding-top: 4vw;
 }
 
-/* line 26, ../scss/_sidebar.scss */
+/* line 30, ../scss/_sidebar.scss */
 .sidebar li {
   text-align: center;
   list-style-type: none;
 }
 
-/* line 31, ../scss/_sidebar.scss */
+/* line 35, ../scss/_sidebar.scss */
 .affix {
   position: fixed;
 }
@@ -8266,43 +8287,56 @@ a.sidebar_nav {
   margin-top: 2vw;
 }
 
-/* line 22, ../scss/_work.scss */
+/* line 19, ../scss/_work.scss */
+.work_img {
+  padding-top: 4vw;
+}
+/* line 23, ../scss/_work.scss */
+.work_img.work_img-right {
+  padding-left: 4vw;
+}
+/* line 27, ../scss/_work.scss */
+.work_img.work_img-left {
+  padding-right: 4vw;
+}
+
+/* line 32, ../scss/_work.scss */
 .work_row_bottom {
   display: table;
   padding-top: 4vw;
 }
-/* line 26, ../scss/_work.scss */
+/* line 36, ../scss/_work.scss */
 .work_row_bottom > p, .work_row_bottom img, .work_row_bottom .work_tech_button {
   display: inline-block;
   float: none;
   vertical-align: bottom;
 }
 
-/* line 34, ../scss/_work.scss */
+/* line 44, ../scss/_work.scss */
 .work_tech_button {
   margin-top: 4vw;
 }
 
-/* line 39, ../scss/_work.scss */
+/* line 49, ../scss/_work.scss */
 .work_tech_list {
   list-style-type: none;
   padding-left: 0;
   padding-top: 1vw;
 }
 
-/* line 45, ../scss/_work.scss */
+/* line 55, ../scss/_work.scss */
 .work_tech_title {
   margin-top: 4vw;
 }
 
-/* line 49, ../scss/_work.scss */
+/* line 59, ../scss/_work.scss */
 .work_arrow {
   padding-top: 4vw;
   padding-bottom: 4vw;
-  width: 3vw;
+  width: 25px;
 }
 
-/* line 55, ../scss/_work.scss */
+/* line 69, ../scss/_work.scss */
 .work_text-center {
   text-align: center;
 }
@@ -8331,4 +8365,10 @@ a.sidebar_nav {
 /* line 1, ../scss/_about.scss */
 .about_container {
   min-height: 92vh;
+}
+
+/* line 1, ../scss/_footer.scss */
+.footer_container {
+  background-color: #FF0000;
+  height: 200px;
 }

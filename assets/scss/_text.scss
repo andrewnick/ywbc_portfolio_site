@@ -64,10 +64,6 @@ h2 {
 		text-align: left;
 	}
 
-	&.sidebar_contact_title {
-		color: $purple;
-	}
-
 }
 
 h3 {
@@ -83,6 +79,21 @@ h3 {
 	&.header_title_description {
 		text-align: center;
 		color: $pale-blue;
+	}
+
+	&.sidebar_contact_title {
+		color: $dark-blue;
+		text-align: center;
+		font-size: 24px;
+		text-transform: uppercase;
+		line-height: 1.1;
+		padding-top: 20px;
+		font-variant: small-caps;
+		text-transform: none;
+
+		&.sidebar_contact_title-email {
+			color: $lite-brown;
+		}
 	}
 
 	// font-size: $h3-font-size;
@@ -170,6 +181,11 @@ a {
 	&.sidebar_nav {
 		font-size: 24px;
 		text-decoration: none;
+	}
+
+	&.sidebar_contact_title-email {
+		color: $lite-brown;	
+		font-size: 22px;
 	}
 }
 
