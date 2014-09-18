@@ -32,6 +32,10 @@ h1 {
 		//padding: 6vh 0;
 	}
 
+	&.work_title {
+		text-align: center;
+	}
+
 }
 
 h2 {
@@ -153,16 +157,19 @@ p {
 
 a {
 	color: black;	
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.5em;
+	text-decoration: underline;
 
 	&.content_button_link{
 		color: white;
 		font-weight: bold;
+		text-decoration: none;
 	}
 
 	&.sidebar_nav {
 		font-size: 24px;
+		text-decoration: none;
 	}
 }
 

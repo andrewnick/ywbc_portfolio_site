@@ -1,27 +1,33 @@
 <article>
-	<div class="row">
+	<div class="row work_row">
 		<h1 class="work_title col-xs-12">WORK</h1>
 	</div>
-	<div class="row">
-		<h1 class="work_title col-xs-12 col-sm-6">Movie - LIFE</h1>
+	<div class="row work_row">
+		<div class="col-xs-3 col-sm-1">
+			<a href="work-restaurant-container.php" id="previous"><img class="work_arrow" src="assets/icons/previous11.svg" alt="previous"></a>
+		</div>
+		
+		<h1 class="work_title col-xs-12 col-sm-10">Movie - LIFE</h1>
+		
+		<div class="col-xs-3 col-sm-1">
+			<a href="work-restaurant-container.php" id="next"><img class="work_arrow" src="assets/icons/next15.svg" alt="next"></a>
+		</div>
 	</div>
 	<div class="row">
-		<h3 class="col-xs-12 col-sm-6">Front End Web Design and Development Course Project</h3>
+		<h3 class=" col-xs-12 col-sm-12">Front End Web Design and Development Course Project</h3>
 	</div>
 	<div class="row">
-		<h3 class="col-xs-12 col-sm-6">Role: Design and Development</h3>
+		<h3 class="col-xs-12 col-sm-12">Role: Design and Development</h3>
 	</div>
  	<div class="row">	
 		<p class="work_text col-xs-12 col-sm-6">The brief for this project was to design and build a website to advertise the
 		release of a movie of our choice. The constraint was that the movie hod to be a <a href="http://www.kickstarter.com">kickstarter</a>
 		project.</p>
 	</div>
-
 	<div class="row">
 		<p class="work_text col-xs-12 col-sm-6">The movie selected was a project called 'LIFE'. It is a self depricating but
 												humours short film about life</p>
 	</div>
-
 	<div class="row">
 		<p class="work_text col-xs-12 col-sm-6">The design and build of the site had the following process.</p>
 	</div>
@@ -45,7 +51,7 @@
 	</div>
 	<div class="row work_row_bottom">
 		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/life_top.png">
-		<p class="work_text work_text-img col-xs-12 col-sm-4">Useing the patterns the site was constructed</p>
+		<p class="work_text work_text-img col-xs-12 col-sm-4">Using the patterns the site was constructed</p>
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">

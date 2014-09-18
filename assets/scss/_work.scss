@@ -3,8 +3,12 @@
 }
 
 .work_title {
-	padding-top: 2.5vw;
+	padding-top: 4vw;
 	padding-bottom: 4vw;
+}
+
+.work_row {
+	border-bottom: 1px solid black;
 }
 
 .work_text {
@@ -40,5 +44,15 @@
 
 .work_tech_title {
 	margin-top: 4vw;
+}
+
+.work_arrow {
+	padding-top: 4vw;
+	padding-bottom: 4vw;
+	width: 3vw;
+}
+
+.work_text-center{
+	text-align: center;
 }
 

@@ -3,7 +3,9 @@
 		<h1 class="work_title col-xs-12">WORK</h1>
 	</div>
 	<div class="row">
-		<h1 class="work_title col-xs-12">Restaurant - Sign of the Bellbird</h1>
+		<a href="about-container.php" id="previous"><img class="work_arrow col-xs-3 col-sm-1" src="assets/icons/previous11.svg" alt="previous"></a>
+		<h1 class="work_title col-xs-11">Restaurant - Sign of the Bellbird</h1>
+		<a href="work-movie-container.php" id="next"><img class="work_arrow col-xs-3 col-sm-1" src="assets/icons/next15.svg" alt="next"></a>
 	</div>
 	<div class="row">
 		<h3 class="col-xs-12">Front End Web Design and Development Course Project</h3>
@@ -34,7 +36,7 @@
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">
-			<h2 class="work_tech_title">This site was been built using :</h2>
+			<h2 class="work_tech_title">This site was built using :</h2>
 			<ul class="work_tech_list">
 				<li>HTML5</li>
 				<li>CSS3</li>				
