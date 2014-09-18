@@ -2,27 +2,18 @@
 <html lang="en" id="document_container">
 <?php 
 
-    require_once('includes/head.php');
-    require_once('includes/header.php');
+    require('includes/head.php');
+    require('includes/header.php');
 ?>
 
 <body>
 
-		<?php 
+		<?php require('includes/content.php'); ?>
 
-      if(isset($_GET['pages'])){
-
-          require_once('includes/'.$_GET['pages'].'.php');
-      }
-      else {
-
-         require_once('includes/content.php');
-      }
-
-    ?>
+   <!-- <div>Icons made by Icons8 from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div> -->
 
   <script type="text/javascript" src="assets/js/jquery.js"></script> 
-  <script type="text/javascript" src="assets/js/jquery.pjax.js"></script> 
+  <script type="text/javascript" src="assets/js/Hashban.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
 
     <!-- add Modernizr -->

@@ -34,19 +34,19 @@
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">
-			<h2 class="work_tech_title">This site has been built using :</h2>
+			<h2 class="work_tech_title">This site was been built using :</h2>
 			<ul class="work_tech_list">
 				<li>HTML5</li>
 				<li>CSS3</li>				
 				<li>JQuery/Javascript</li>
-				<li>Google Maps API</li>
+				<li>Google Maps Embedded API</li>
 				<li>Bootstrap</li>
 			</ul>
 		</div>
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">
-			<a data-pjax href="restaurant/index.php" class="content_button_link">
+			<a data-pjax href="restaurant" class="content_button_link">
 				<div class="content_button_link">Visit the Website >></div>
 			</a>
 		</div>

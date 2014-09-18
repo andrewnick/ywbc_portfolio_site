@@ -26,6 +26,12 @@ h1 {
 	font-size: 48px;
 	line-height: 48px;
 
+	&.about_title {
+		padding-top: 6vh;
+		padding-bottom: 6vh;
+		//padding: 6vh 0;
+	}
+
 }
 
 h2 {
