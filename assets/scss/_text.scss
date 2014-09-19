@@ -64,6 +64,12 @@ h2 {
 		text-align: left;
 	}
 
+	&.work_other_title {
+		font-size: 48px;
+		text-align: center;
+		color: $lite-blue;
+	}
+
 }
 
 h3 {
@@ -186,6 +192,12 @@ a {
 	&.sidebar_contact_title-email {
 		color: $lite-brown;	
 		font-size: 22px;
+	}
+
+	&.work_other_button_link {
+		color: white;
+		font-weight: bold;
+		text-decoration: none;
 	}
 }
 

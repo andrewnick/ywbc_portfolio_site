@@ -1,5 +1,6 @@
 $(document).ready( function(){
 
+	// Fixes the side bar when the header disapears from view.
 	$('.sidebar').affix({
 	    offset: {
 	      top: $(window).height()
@@ -7,7 +8,8 @@ $(document).ready( function(){
 	 })
 
 
-
+	// Hashban module configuration and initializtion. This handles the change of content 
+	// when a link is clicked.
 	$(function() {
 	    if (Modernizr.history) {
 
@@ -23,7 +25,7 @@ $(document).ready( function(){
 	                // reveal the new content
 	                this.old_content.remove();
 	                new_content.fadeIn();
-					$("body").animate({scrollTop:$('#work_container').offset().top});
+					$("body").animate({scrollTop:$('#work_container').offset().top}, 500);
 
 	            };
 

@@ -8101,8 +8101,14 @@ h2.tramp_title {
   text-transform: none;
   text-align: left;
 }
+/* line 67, ../scss/_text.scss */
+h2.work_other_title {
+  font-size: 48px;
+  text-align: center;
+  color: #598aab;
+}
 
-/* line 69, ../scss/_text.scss */
+/* line 75, ../scss/_text.scss */
 h3 {
   color: #a6a084;
   font-weight: bold;
@@ -8110,12 +8116,12 @@ h3 {
   line-height: 24px;
   margin-top: 5px;
 }
-/* line 79, ../scss/_text.scss */
+/* line 85, ../scss/_text.scss */
 h3.header_title_description {
   text-align: center;
   color: #ddebf1;
 }
-/* line 84, ../scss/_text.scss */
+/* line 90, ../scss/_text.scss */
 h3.sidebar_contact_title {
   color: #335a76;
   text-align: center;
@@ -8126,12 +8132,12 @@ h3.sidebar_contact_title {
   font-variant: small-caps;
   text-transform: none;
 }
-/* line 94, ../scss/_text.scss */
+/* line 100, ../scss/_text.scss */
 h3.sidebar_contact_title.sidebar_contact_title-email {
   color: #a6a084;
 }
 
-/* line 106, ../scss/_text.scss */
+/* line 112, ../scss/_text.scss */
 h4 {
   color: #a6a084;
   font-size: 16px;
@@ -8139,14 +8145,14 @@ h4 {
   text-align: center;
 }
 
-/* line 120, ../scss/_text.scss */
+/* line 126, ../scss/_text.scss */
 h5 {
   color: white;
   font-size: 16px;
   line-height: 24px;
 }
 
-/* line 131, ../scss/_text.scss */
+/* line 137, ../scss/_text.scss */
 h6 {
   color: #598aab;
   text-align: center;
@@ -8155,19 +8161,19 @@ h6 {
   line-height: 24px;
 }
 
-/* line 147, ../scss/_text.scss */
+/* line 153, ../scss/_text.scss */
 p {
   color: black;
   text-align: left;
   font-size: 18px;
   line-height: 1.5em;
 }
-/* line 154, ../scss/_text.scss */
+/* line 160, ../scss/_text.scss */
 p.work_text-centre {
   text-align: center;
 }
 
-/* line 160, ../scss/_text.scss */
+/* line 166, ../scss/_text.scss */
 .work_tech_list li {
   text-align: center;
   font-size: 20px;
@@ -8175,33 +8181,40 @@ p.work_text-centre {
   margin-top: 5px;
 }
 
-/* line 169, ../scss/_text.scss */
+/* line 175, ../scss/_text.scss */
 a {
   color: black;
   font-size: 18px;
   line-height: 1.5em;
   text-decoration: underline;
 }
-/* line 175, ../scss/_text.scss */
+/* line 181, ../scss/_text.scss */
 a.content_button_link {
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 181, ../scss/_text.scss */
+/* line 187, ../scss/_text.scss */
 a.sidebar_nav {
   font-size: 24px;
   text-decoration: none;
 }
-/* line 186, ../scss/_text.scss */
+/* line 192, ../scss/_text.scss */
 a.sidebar_contact_title-email {
   color: #a6a084;
   font-size: 22px;
+}
+/* line 197, ../scss/_text.scss */
+a.work_other_button_link {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* line 1, ../scss/_header.scss */
 .header_background_img {
   background: url("../images/hills_blue.jpg") no-repeat center center;
+  background-attachment: fixed;
   position: relative;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8210,7 +8223,7 @@ a.sidebar_contact_title-email {
   height: 100vh;
 }
 
-/* line 13, ../scss/_header.scss */
+/* line 14, ../scss/_header.scss */
 .header_logo_container {
   margin: 0 auto;
   width: 50vw;
@@ -8219,7 +8232,7 @@ a.sidebar_contact_title-email {
   left: -2%;
 }
 @media screen and (min-width: 768px) {
-  /* line 13, ../scss/_header.scss */
+  /* line 14, ../scss/_header.scss */
   .header_logo_container {
     width: 20vw;
   }
@@ -8311,34 +8324,68 @@ a.sidebar_contact_title-email {
   float: none;
   vertical-align: bottom;
 }
+/* line 43, ../scss/_work.scss */
+.work_row_bottom.work_row_bottom-first {
+  padding-top: 0;
+}
 
-/* line 44, ../scss/_work.scss */
+/* line 48, ../scss/_work.scss */
 .work_tech_button {
   margin-top: 4vw;
 }
 
-/* line 49, ../scss/_work.scss */
+/* line 53, ../scss/_work.scss */
 .work_tech_list {
   list-style-type: none;
   padding-left: 0;
   padding-top: 1vw;
 }
 
-/* line 55, ../scss/_work.scss */
+/* line 59, ../scss/_work.scss */
 .work_tech_title {
   margin-top: 4vw;
 }
 
-/* line 59, ../scss/_work.scss */
+/* line 63, ../scss/_work.scss */
 .work_arrow {
   padding-top: 4vw;
   padding-bottom: 4vw;
   width: 25px;
 }
 
-/* line 69, ../scss/_work.scss */
+/* line 73, ../scss/_work.scss */
 .work_text-center {
   text-align: center;
+}
+
+/* line 77, ../scss/_work.scss */
+.work_filler_container {
+  min-height: 92vh;
+}
+
+/* line 81, ../scss/_work.scss */
+.work_other_button {
+  text-align: center;
+  background: #598aab;
+  padding: 10px 0;
+  border-radius: 5px;
+  margin-top: 1vw;
+}
+@media screen and (min-width: 768px) {
+  /* line 81, ../scss/_work.scss */
+  .work_other_button {
+    width: 20vw;
+  }
+}
+
+/* line 94, ../scss/_work.scss */
+.work_other_article {
+  margin-top: 4vw;
+}
+
+/* line 98, ../scss/_work.scss */
+.work_other_button_pos {
+  margin: 0 autol;
 }
 
 /* line 1, ../scss/_content.scss */

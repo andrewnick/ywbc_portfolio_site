@@ -39,6 +39,10 @@
 		float: none;
 		vertical-align: bottom;
 	}
+
+	&.work_row_bottom-first {
+		padding-top:0;
+	}
 }
 
 .work_tech_button {
@@ -70,3 +74,27 @@
 	text-align: center;
 }
 
+.work_filler_container {
+	min-height: 100vh - ($vertical-padding * 2);
+}
+
+.work_other_button {
+	text-align: center;
+	background: $lite-blue;
+	padding: 10px 0;
+	border-radius: 5px;
+	margin-top: 1vw;
+
+
+	@include respond($tablet) {
+		width: 20vw;
+	}
+}
+
+.work_other_article {
+	margin-top: 4vw;
+}
+
+.work_other_button_pos {
+	margin: 0 auto;
+}

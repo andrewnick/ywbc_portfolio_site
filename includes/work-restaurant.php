@@ -8,7 +8,7 @@
 		</div>
 		<h1 class="work_title col-xs-10">Restaurant - Sign of the Bellbird</h1>
 		<div class="col-xs-1">
-			<a href="work-movie-container.php" id="next"><img class="work_arrow pull-right" src="assets/icons/next15.svg" alt="next"></a>
+			<a href="work-other-container.php" id="next"><img class="work_arrow pull-right" src="assets/icons/next15.svg" alt="next"></a>
 		</div>
 	</div>
 	<div class="row">
@@ -22,7 +22,7 @@
 		created the branding for the restaurant, designed the website and turned the designs into a functioning site.</p>
 	</div>
 
-	<div class="row work_row_bottom">
+	<div class="row work_row_bottom work_row_bottom-first">
 		<img class="work_img col-xs-12 col-sm-8" src="assets/images/restaurant_responsive.png">
 		<p class="work_text col-xs-12 col-sm-4">The site is fully responsive. Users can get the information they need from the 
 		site where ever they are and on what ever device they are using.</p>
@@ -43,16 +43,18 @@
 			<h2 class="work_tech_title">This site was built using :</h2>
 			<ul class="work_tech_list">
 				<li>HTML5</li>
-				<li>CSS3</li>				
+				<li>CSS3</li>
+				<li>PHP</li>
+				<li>Sass</li>
+				<li>Bootstrap</li>
 				<li>JQuery/Javascript</li>
 				<li>Google Maps Embedded API</li>
-				<li>Bootstrap</li>
 			</ul>
 		</div>
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">
-			<a data-pjax href="restaurant" class="content_button_link">
+			<a href="restaurant" class="content_button_link">
 				<div class="content_button_link">Visit the Website >></div>
 			</a>
 		</div>
