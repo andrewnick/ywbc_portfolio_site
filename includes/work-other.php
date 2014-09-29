@@ -28,10 +28,10 @@
 				</div>
 				<div class="row">
 					<p class="col-xs-12" >Rx&sup2; is  a clothing and footware company targeted at
-					people to do crossfit. The design was created by another member of the class. My role was
-					to do the development of the site. This involved working with the class member to sort out
-					issues with the conversion from design to website, using the photoshop files and
-					assets that were provided, and generating assets from photoshop.</p>
+					people to do crossfit. My role was to the develop the site. This involved
+					working with the designer to solve issues with converting the design to a website,
+					using the photoshop files and assets that were provided, and generating assets
+					from photoshop.</p>
 				</div>
 				<div class="row">
 					<div class="work_other_button_pos col-xs-6 col-sm-12">

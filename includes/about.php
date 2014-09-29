@@ -13,8 +13,8 @@
 			</div>
 			<div class="row">
 				<p class="col-xs-12">I enjoy learning about how people think and have an avid interest in science and technology.
-				 These two interests are what lead me into web design and development. It gives me the ability to combine my interest
-				 in how people think with my background in electronics and programming.</p>
+				 These two interests are what lead me into web design and development. It gives me the ability to keep learning about
+				 how people work utilize my background in electronics and programming.</p>
 			</div>
 			<div class="row">
 				<p class="col-xs-12">On my down days I enjoy playing the guitar, traveling to the mountains to camp, tramp and ski in them.

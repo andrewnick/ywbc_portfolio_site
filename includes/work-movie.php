@@ -61,13 +61,7 @@
 		<div class="work_tech_button col-xs-12">
 			<h2 class="work_tech_title">This site was built using :</h2>
 			<ul class="work_tech_list">
-				<li>HTML5</li>
-				<li>CSS3</li>				
-				<li>PHP</li>				
-				<li>Sass</li>
-				<li>Bootstrap</li>
-				<li>JQuery/Javascript</li>
-				<li>Google Maps Javascript API</li>
+				<li>HTML5 | CSS3 | PHP | Sass | Bootstrap | JQuery/Javascript | Google Maps Javascript API</li>
 			</ul>
 		</div>
 	</div>

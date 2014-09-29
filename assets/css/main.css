@@ -8197,14 +8197,15 @@ a.content_button_link {
 /* line 187, ../scss/_text.scss */
 a.sidebar_nav {
   font-size: 24px;
+  letter-spacing: 2px;
   text-decoration: none;
 }
-/* line 192, ../scss/_text.scss */
+/* line 193, ../scss/_text.scss */
 a.sidebar_contact_title-email {
   color: #a6a084;
   font-size: 22px;
 }
-/* line 197, ../scss/_text.scss */
+/* line 198, ../scss/_text.scss */
 a.work_other_button_link {
   color: white;
   font-weight: bold;
@@ -8240,7 +8241,7 @@ a.work_other_button_link {
 
 /* line 1, ../scss/_sidebar.scss */
 .sidebar_container {
-  border-right: 1px solid #335a76;
+  border-right: 1px solid #d3d3d3;
   position: absolute;
   top: 0;
   bottom: 0;
