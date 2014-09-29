@@ -66,7 +66,8 @@ h2 {
 
 	&.work_other_title {
 		font-size: 48px;
-		text-align: center;
+		line-height: 1.5;
+		text-align: left;
 		color: $lite-blue;
 	}
 
@@ -92,8 +93,7 @@ h3 {
 		text-align: center;
 		font-size: 24px;
 		text-transform: uppercase;
-		line-height: 1.1;
-		padding-top: 20px;
+		line-height: 1.5;
 		font-variant: small-caps;
 		text-transform: none;
 

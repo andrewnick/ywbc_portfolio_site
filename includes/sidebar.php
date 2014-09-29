@@ -12,7 +12,7 @@
 
 
     <div class="sidebar_contact_container col-sm-12">
-      <h3 class="sidebar_contact_title">Hiring and like <br/> what you see?</h3>
+      <h3 class="sidebar_contact_title">Hiring?</h3>
 <!--       <h3 class="sidebar_contact_title">Like what you see?</h3> -->
       <h3 class="sidebar_contact_title" ><a class="sidebar_contact_title-email" href="mailto:andrew.d.nicholas@gmail.com" target="_top">Get in Contact</a></h3>
     </div>

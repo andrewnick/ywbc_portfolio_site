@@ -42,7 +42,7 @@ $(document).ready( function(){
        		Transition.prototype = new Hashban.DefaultTransition();
 
        		function content_links() {
-            	hashban.hijack($('#work_container'));
+            	hashban.hijack($('#work_container'), ':not(.external)');
         	};
 
 	        // Create a Hashban instance for your site
