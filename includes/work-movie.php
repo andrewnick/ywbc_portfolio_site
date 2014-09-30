@@ -32,8 +32,8 @@
 		<p class="work_text col-xs-12 col-sm-6">The process of creating the site was as follows.</p>
 	</div>
 	<div class="row work_row_bottom work_row_bottom-first">
-		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/pintrest_moodboard.png">
-		<p class="work_text work_text-img col-xs-12 col-sm-4">After reading though the material and viewing th
+		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/moodboard.png">
+		<p class="work_text work_text-img col-xs-12 col-sm-4">After reading though the material and viewing the
 		videos on kickstarter a moodboard was created to pull together the feeling and look of the film and use elements
 		of the moodboard to develop the style of the website.</p>
 	</div>
@@ -61,7 +61,7 @@
 		<div class="work_tech_button col-xs-12">
 			<h2 class="work_tech_title">This site was built using :</h2>
 			<ul class="work_tech_list">
-				<li>HTML5 | CSS3 | PHP | Sass | Bootstrap | JQuery/Javascript | Google Maps Javascript API</li>
+				<li>HTML5 | CSS3 | PHP | SASS | Bootstrap | JQuery/Javascript | Google Maps Javascript API</li>
 			</ul>
 		</div>
 	</div>

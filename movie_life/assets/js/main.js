@@ -2,7 +2,7 @@ $(document).ready ( function(){
 
 	//initializeMaps();
 
-	var releaseDate = new Date("25 September 2014").getTime();
+	var releaseDate = new Date("25 December 2014").getTime();
 
 	var days,
 		hours,

@@ -8,7 +8,7 @@
 		</div>
 		<h1 class="work_title col-xs-10">Restaurant - Sign of the Bellbird</h1>
 		<div class="col-xs-1">
-			<a href="work-other-container.php" id="next"><img class="work_arrow pull-right" src="assets/icons/next15.svg" alt="next"></a>
+			<a href="work-trek-container.php" id="next"><img class="work_arrow pull-right" src="assets/icons/next15.svg" alt="next"></a>
 		</div>
 	</div>
 	<div class="row">
@@ -42,7 +42,7 @@
 		<div class="work_tech_button col-xs-12">
 			<h2 class="work_tech_title">This site was built using :</h2>
 			<ul class="work_tech_list">
-				<li>HTML5 | CSS3 | PHP | Sass | Bootstrap | JQuery/Javascript | Google Maps Embedded API</li>
+				<li>HTML5 | CSS3 | PHP | SASS | Bootstrap | JQuery/Javascript | Google Maps Embedded API</li>
 			</ul>
 		</div>
 	</div>
