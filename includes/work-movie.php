@@ -25,11 +25,11 @@
 		project.</p>
 	</div>
 	<div class="row">
-		<p class="work_text col-xs-12 col-sm-6">I selected a project called 'LIFE'. It is a self deprecating but
-												humours short film about life</p>
+		<p class="work_text col-xs-12 col-sm-6">I selected a project called 'LIFE'. It is a self-deprecating but
+												humorous short film about life</p>
 	</div>
 	<div class="row">
-		<p class="work_text col-xs-12 col-sm-6">The process of creating the site was as follows.</p>
+		<p class="work_text col-xs-12 col-sm-6">The process of creating the site was as follows:</p>
 	</div>
 	<div class="row work_row_bottom work_row_bottom-first">
 		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/moodboard.png">
