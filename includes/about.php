@@ -16,7 +16,7 @@
 				 These two interests are what lead me into web design and development.</p>
 			</div>
 			<div class="row">
-				<p class="col-xs-12">On my down days I enjoy playing the guitar, traveling to the mountains to camp, tramp and ski in them.
+				<p class="col-xs-12">In my spare time I enjoy playing the guitar and traveling to the mountains to camp, tramp and ski.
 				 I am a frequent listener to podcasts such as This American Life, Radiolab and Freakonomics Radio.</p>
 			</div>
 		</div>
