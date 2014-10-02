@@ -27,7 +27,7 @@
 					<h3 class="col-xs-12">Role: Development</h3>
 				</div>
 				<div class="row">
-					<p class="col-xs-12" >Rx&sup2; is  a clothing and footware company targeted at
+					<p class="col-xs-12" >Rx&sup2; is  a clothing and footwear company targeted at
 					people who do crossfit. My role was to the develop the site. This involved
 					working with the designer to solve issues that came up in converting the design to a website,
 					using the provided photoshop files and assets, and generating assets
