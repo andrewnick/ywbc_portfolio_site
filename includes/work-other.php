@@ -28,9 +28,9 @@
 				</div>
 				<div class="row">
 					<p class="col-xs-12" >Rx&sup2; is  a clothing and footware company targeted at
-					people to do crossfit. My role was to the develop the site. This involved
-					working with the designer to solve issues with converting the design to a website,
-					using the photoshop files and assets that were provided, and generating assets
+					people who do crossfit. My role was to the develop the site. This involved
+					working with the designer to solve issues that came up in converting the design to a website,
+					using the provided photoshop files and assets, and generating assets
 					from photoshop.</p>
 				</div>
 				<div class="row">
@@ -57,7 +57,8 @@
 					</div>
 				<div class="row">
 					<p class="col-xs-12" >This design was based on a product idea generated from member of my web design
-					 and development class. The products to be sold were famous designer chairs</p>
+					 and development class. The products to be sold were famous designer chairs. An unusual layout was
+					 chosen to reflect as the unique nature of the product and attract customers who have a taste for bold design.</p>
 				</div>
 				<div class="row">
 					<div class="work_other_button_pos col-xs-6 col-sm-12">

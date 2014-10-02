@@ -34,7 +34,7 @@
 	</div>
 	<div class="row work_row_bottom">
 		<img class="work_img col-xs-12 col-sm-8 img-responsive" src="assets/images/restaurant_location.png">
-		<p class="work_text work_text-img col-xs-12 col-sm-4">A selection of images required further control of its dimensions. Javascript was used
+		<p class="work_text work_text-img col-xs-12 col-sm-4">A selection of images required further control of their dimensions. Javascript was used
 		 to control the image dimensions as the browser width scales down.
 		</p>
 	</div>

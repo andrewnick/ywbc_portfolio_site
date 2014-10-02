@@ -13,8 +13,7 @@
 			</div>
 			<div class="row">
 				<p class="col-xs-12">I enjoy learning about how people think and have an avid interest in science and technology.
-				 These two interests are what lead me into web design and development. It gives me the ability to keep learning about
-				 how people work utilize my background in electronics and programming.</p>
+				 These two interests are what lead me into web design and development.</p>
 			</div>
 			<div class="row">
 				<p class="col-xs-12">On my down days I enjoy playing the guitar, traveling to the mountains to camp, tramp and ski in them.
@@ -23,7 +22,7 @@
 		</div>
 		<div class="col-xs-12 col-sm-offset-1 col-sm-5">
 			<div class="row">
-				<div class="col-xs-12"><img src="assets/images/profile_dummy_image.png" alt="" class="img-responsive"></div>
+				<div class="col-xs-12"><img src="assets/images/profile_dummy_image.jpg" alt="" class="img-responsive"></div>
 			</div>
 		</div>
 	</div>

@@ -19,7 +19,7 @@
 	</div>
  	<div class="row">	
 		<p class="work_text col-xs-12 col-sm-6">The requirement for this project was to design 
-		a mobile app of our choice. Trek is a orgainsational and planning app for trampers. A tramper
+		a mobile app of our choice. Trek is a planning app for trampers. A tramper
 		is able to orgainise multiple tramps each with it's own gear and food list.
 		For each tramp the tramper sets the track they are about to take. This has useful information about the track
 		such as the location, name and type of track. A track is set by choosing a track from the map with DOC track on it.</p>
@@ -41,7 +41,8 @@
 	</div>
 	<div class="row work_row_bottom">
 		<img class="work_img col-xs-12 col-sm-offset-1 col-sm-4 img-responsive" src="assets/images/tramp.jpg">
-		<p class="work_text work_text-img col-xs-12 col-sm-offset-2 col-sm-5">On selecting a previously created tramp or created a new tramp
+		<p class="work_text work_text-img col-xs-12 col-sm-offset-2 col-sm-5">On selecting a previously created tramp or on 
+		creation of a new tramp
 		the tramper can see further details of the tramp. They can see the track name and how long it will take and whether or not
 		the gear and food lists have been checked off.</p>
 	</div>
@@ -55,7 +56,7 @@
 		<img class="work_img col-xs-12 col-sm-offset-1 col-sm-4 img-responsive" src="assets/images/gear_delete.jpg">
 		<p class="work_text work_text-img col-xs-12 col-sm-offset-2 col-sm-5">The default edit view has a plus icon (not shown here) 
 		like the home page to allow items to be added to the list. When one or more items are checked in edit mode the tramper is
-		able to delete items from the list.</p>
+		able to delete items from the list. Navigation to previous screens is provided via the back arrows.</p>
 	</div>
 <!-- 	<div class="row">
 		<div class="work_tech_button col-xs-12">

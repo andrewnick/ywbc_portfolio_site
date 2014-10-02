@@ -55,7 +55,7 @@
 	</div>
 	<div class="row work_row_bottom">
 		<img class="work_img work_img-left col-xs-12 col-sm-8 img-responsive" src="assets/images/life_top.png">
-		<p class="work_text work_text-img col-xs-12 col-sm-4">From these patterns and design files the full site was developed.
+		<p class="work_text work_text-img col-xs-12 col-sm-4">From these patterns and design files the full site was constructed.
 	</div>
 	<div class="row">
 		<div class="work_tech_button col-xs-12">
