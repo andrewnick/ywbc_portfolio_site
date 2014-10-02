@@ -10,10 +10,10 @@
 			</div>
 
 			<article class="row">
-				<p class="body_text home_main__text__border col-md-12">LIFE is a dark comedy about a Man.  As the Man discovers his environment,
+				<p class="body_text home_main__text__border col-md-12">LIFE is a dark comedy about a man.  As the man discovers his environment,
 				 he slowly begins to piece together details of his basic existence.  Suddenly he finds himself going through
-				 motions that ultimately propel him towards an odd encounter with an unknown Man.  That encounter will alter
-				 the course of history.  Ultimately, the Man is a visual metaphor for LIFE</p>
+				 motions that ultimately propel him towards an odd encounter with another man.  That encounter will alter
+				 the course of history.  Ultimately, the man is a visual metaphor for LIFE</p>
 			</article>
 		</div>	
 	</div>
