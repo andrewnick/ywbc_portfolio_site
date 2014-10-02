@@ -25,11 +25,11 @@
 	<div class="row work_row_bottom work_row_bottom-first">
 		<img class="work_img col-xs-12 col-sm-8" src="assets/images/restaurant_responsive.png">
 		<p class="work_text col-xs-12 col-sm-4">The site is fully responsive. Users can get the information they need from the 
-		site where ever they are and on what ever device they are using.</p>
+		site wherever they are and on whatever device they are using.</p>
 	</div>
 	<div class="row work_row_bottom">
-		<p class="work_text work_text-img col-xs-12 col-sm-5">CSS animations were used on the navigation slider and to smooth the transition between showing and hiding 
-		the mobile menu. JQuery was used to smooth the transition between clicking a link and being taken to that part of the page.  </p>
+		<p class="work_text work_text-img col-xs-12 col-sm-5">CSS animations were used on the mobile navigation to smooth the transition between showing and hiding 
+		the navigation bar. JQuery was used to smooth the transition of moving between sections using the navigation links.</p>
 		<img class="work_img work_img-restaurant_nav col-xs-12 col-sm-offset-2 col-sm-4 img-responsive" src="assets/images/restaurant_nav2.png">
 	</div>
 	<div class="row work_row_bottom">

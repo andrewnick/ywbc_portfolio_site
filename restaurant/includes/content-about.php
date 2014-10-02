@@ -13,7 +13,7 @@
 				stopping point for travellers along the Port Hills walkway.</p>
 	  
 				<p>Sign of the Bellbird continues this tradition as visitors 
-				can now come sit and rest with thier friends and family to
+				can now come sit and rest with their friends and family to
 				enjoy woodfried pizzas, craft beer and the stunning Canterbury
 				landscape.</p>
 		</div>
