@@ -1,0 +1,20 @@
+.product_background {
+
+	background-image: url("../images/desktop_home_3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
+	@include respond($tablet) {
+		background-image: url("../images/desktop_home_3.png");
+			background-size: contains;
+			background-position: center center;
+	}	
+}
+
+.product_container {
+
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	
+}

@@ -1,0 +1,39 @@
+.nav_item {
+	 padding-bottom: 9px;
+
+	 @include respond ($tablet) {
+	 	padding-bottom: 18px;
+	 }
+
+} 
+
+.nav_logo {
+
+	position: relative;
+	top: $header_padding_top_m + 9px;
+
+	@include respond ($tablet) {
+	 	top: 125px;
+	}
+}
+
+img {
+	max-height: 100%;
+}
+
+.nav_container {
+
+	// position: relative;
+	// z-index: 5;
+
+	@include clearfix;
+	padding-top: $header_padding_top_m;
+	@include respond ($tablet) {
+		padding-top: 125px;
+	}
+
+}
+
+.nav_item_img {
+	padding-top: 27px;
+}

@@ -1,0 +1,35 @@
+$tablet: 768px;
+$desktop: 992px;
+$large: 1200px;
+
+$background-colour: #1e0000;
+
+// Colours
+$yellow: #fff56c ;
+$orange: #f79621;
+$teal: #27beb8;
+$dark-grey: #666666;
+
+// Fonts
+$rokkitt: 'Rokkitt', serif;
+$oswald: 'Oswald', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+// $rokkitt: serif;
+// $oswald: sans-serif;
+// $roboto:  sans-serif;
+
+// Weights
+$light: 300;
+$normal: 400;
+$medium: 500;
+$bold: 700;
+
+//Header padding
+$header_padding_top_m: 87px;
+$header_padding_bottom_m: 87px;
+
+$testimony_padding: 2vw;
+
+// Glyphicons location visible to scss compiler
+$icon-font-path: "../bootstrap/assets/fonts/bootstrap/";
